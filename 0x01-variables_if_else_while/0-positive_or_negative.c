@@ -6,6 +6,7 @@
  * and prints wether it's negative, zero or positive
  * more headers goes there
  * betty style doc for function main goes there
+ * Return: 0 Always
  */
 int main(void) /*Function that runs a random number*/
 {
