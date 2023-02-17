@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Function that runs a random number 
+ * main - Function that runs a random number
  * and prints wether it's negative, zero or positive
  * more headers goes there
  * betty style doc for function main goes there
@@ -26,5 +26,5 @@ int main(void) /*Function that runs a random number*/
 	{
 		printf("%d is negative\n", n);
 	}
-	return (0);
+	return (0); /*Always*/
 }
