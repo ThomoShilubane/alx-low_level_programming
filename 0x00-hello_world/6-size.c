@@ -2,7 +2,7 @@
 /**
  * main - A prgram that prints the size of various types
  * based on the computer it is run on
- *Return: 0 Always 
+ * Return: 0 Always
  */
 int main(void)
 {
