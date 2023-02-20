@@ -2,7 +2,7 @@
 
 /**
  * main - Prints all combinations of two numbers
- * Return 0 Always
+ * Return: 0 Always
  */
 
 int main(void)
@@ -18,13 +18,13 @@ int main(void)
 			{
 				putchar(a);
 				putchar(b);
-				if (!(a == '8') && (b == '9'))
-				putchar('.');
+				if (!(a == '8' && b == '9'))
+				putchar(',');
 				putchar(' ');
 
 			}
 		}
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
