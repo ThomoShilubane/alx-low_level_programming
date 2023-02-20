@@ -22,7 +22,7 @@ int main(void)
 			{
 			if (!(a == c && b == d))
 			{
-				if (a <= c)
+				if (a <= c && b <= d)
 				{
 					putchar(a);
 					putchar(b);
