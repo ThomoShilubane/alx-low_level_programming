@@ -22,8 +22,11 @@ int main(void)
 					putchar(a);
 					putchar(b);
 					putchar(c);
-					putchar(',');
-					putchar(' ');
+					if (!(a == '7' && b == '8' && c == '9'))
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
