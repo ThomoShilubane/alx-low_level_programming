@@ -3,7 +3,7 @@
 /**
  * print_sign - Prints sign of a number.
  * @n: Parameter
- * Return: 1 and prints + if n is greater than zero
+ * Return: 1, 0 and -1
  */
 
 int print_sign(int n)
@@ -21,8 +21,6 @@ int print_sign(int n)
 	else
 	{
 		_putchar('-');
-		return (45);
+		return (-1);
 	}
-	_putchar('\n');
 }
-
