@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print-rev - prints reversed string
+ * print_rev - prints reversed string
  * @s: pointer to the spring to print
  * Return: void
  */
